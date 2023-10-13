@@ -1,42 +1,20 @@
-<<<<<<< HEAD
 [
-    {
-      "id": 1,
-      "title": "Title",
-      "description": "Description",
-      "URL": "URL"
-    },
-    {
-      "id": 2,
-      "title": "Post Title",
-      "description": "hello",
-      "URL": "URLest"
-    },
-    {
-      "id": 3,
-      "title": "First Post",
-      "description": "Why goodbye there",
-      "URL": "https://youtube.com"
-    }
-=======
-[
-    {
-      "id": 1,
-      "title": "Title",
-      "description": "Description",
-      "URL": "URL"
-    },
-    {
-      "id": 2,
-      "title": "Post Title",
-      "description": "hello",
-      "URL": "URLest"
-    },
-    {
-      "id": 3,
-      "title": "First Post",
-      "description": "Why goodbye there",
-      "URL": "https://youtube.com"
-    }
->>>>>>> a9746564701b9bf28550d2a070bdff1e48c3a263
-  ]
+  {
+    "id": 1,
+    "title": "Title",
+    "description": "Description",
+    "URL": "URL"
+  },
+  {
+    "id": 2,
+    "title": "Post Title",
+    "description": "hello",
+    "URL": "URLest"
+  },
+  {
+    "id": 3,
+    "title": "First Post",
+    "description": "Why goodbye there",
+    "URL": "https://youtube.com"
+  }
+]
