@@ -1,0 +1,52 @@
+.song {
+  transition-duration: 0.25s;
+  text-align: center;
+  padding-bottom: 20px;
+
+  border-radius: 20px;
+  border-color: black;
+  border-style: solid;
+
+  box-shadow: 0px 0px 1px 1px black;
+  
+  background-color: white;
+
+  margin: 5px 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.song:hover {
+  transition-duration: 0.5s;
+
+  background-color: rgb(240, 240, 240);
+
+  box-shadow: 0px 0px 3px 3px black;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.song img {
+  transition-duration: 1s;
+  box-shadow: none;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: large;
+}
+
+.search-bar button {
+  padding: 5px;
+  margin-left: 15px;
+  font-size: large;
+}
