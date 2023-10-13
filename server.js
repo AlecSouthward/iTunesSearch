@@ -9,6 +9,14 @@ app.use(express.json());
 const favFilePath = 'favorites.json'; // Path to the JSON file where favorites are stored
 let favorites = []; // Array to store favorite items
 
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, 'client/build')));
+    app.get('*', (req, res) => {
+        res.sendFile(path.resolve(__dirname,
+            'client', 'build', 'index.html'));
+    });
+}
+
 // Attempt to read data from the JSON file when the application starts
 try {
     const data = fs.readFileSync(favFilePath);
