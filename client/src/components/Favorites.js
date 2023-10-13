@@ -14,6 +14,7 @@ function Favorites() {
                 const response = await axios.get('/favorites');
                 // Update the favorites state with the response data from the server
                 setFavorites(response.data);
+                console.log(favorites)
             } catch (error) {
                 console.error(error);
             }
