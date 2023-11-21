@@ -15,6 +15,12 @@ iTunes Search App is a web application that allows users to search for music, mo
 - **Search:** Users can enter a query in the search bar and get real-time search results from the iTunes API.
 - **Favorites:** Users can add items from the search results to their favorites list.
 - **View Favorites:** Users can view their favorite items on a separate page.
+## Security
+### Helmet
+The application uses [Helmet](https://helmetjs.github.io/) to enhance security by setting various HTTP headers. Helmet helps protect against common web vulnerabilities.
+
+### Cors
+[CORS (Cross-Origin Resource Sharing)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers are handled using the `cors` middleware to control access to the iTunes Search API from the React front end.
 
 ## Installation and Setup
 
@@ -26,6 +32,9 @@ iTunes Search App is a web application that allows users to search for music, mo
 2. **Install dependencies:**
    ```
    cd itunes-search-app
+   npm install
+
+   cd client
    npm install
    ```
 
