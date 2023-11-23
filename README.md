@@ -48,6 +48,17 @@ The application uses [Helmet](https://helmetjs.github.io/) to enhance security b
 4. **Access the application:**
    Open your browser and go to `http://localhost:3000` to access the iTunes Search App.
 
+## Testing
+To test the API, while in the sever's folder (main folder) run this command:
+```
+npm run test-server
+```
+
+To test the frontend, while in the client's folder (```cd client``` from server folder) run this command:
+```
+npm run test
+```
+
 ## Usage
 
 - Enter a search query in the search bar and click "Search" to get results from the iTunes API.
