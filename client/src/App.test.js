@@ -1,8 +1,17 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
 
-test('renders learn react link', () => {
+import App from './App';
+import Favorites from './components/Favorites';
+import ItunesSearch from './components/ItunesSearch';
+
+test('renders App component', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+});
+
+test('renders Favorites component', () => {
+  render(<Favorites />);
+});
+
+test('renders ItunesSearch component', () => {
+  render(<ItunesSearch />);
 });
